@@ -31,6 +31,6 @@ jobs:
 
       - name: Run tests
         run: |
-          docker run --rm YOUR_USERNAME/llm-inference-image:latest python app.py &
+          docker run --rm ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:latest python app.py &
           sleep 10
           curl -X POST http://localhost:5000 -d "text=Test"
