@@ -28,10 +28,10 @@ jobs:
           context: . 
           file: ./Dockerfile  
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:test-20250318 
+          tags: ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:latest
 
       - name: Run tests
         run: |
-          docker run -d -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:test-20250318 
+          docker run -d -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:latest
           sleep 10  
           curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a test"}' http://localhost:5000/infer  
