@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main  # هر بار که به شاخه main push می‌کنی، اجرا می‌شه
+      - main  
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: YOUR_USERNAME/llm-inference-image:latest  # YOUR_USERNAME رو عوض کن
+          tags: ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:latest  
 
       - name: Run tests
         run: |
