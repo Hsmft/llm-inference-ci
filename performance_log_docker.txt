@@ -1,0 +1,2 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O   PIDS
+44ee1943b83b   llm-inference-container   0.03%     289.6MiB / 3.77GiB   7.50%     291MB / 5.06MB   0B / 0B     17

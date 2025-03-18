@@ -1,0 +1,2 @@
+CONTAINER ID   NAME                                                CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O   PIDS
+ce3e26874829   llm-inference-service.1.ys4e0dtent0peyslar92ddjos   0.01%     352.8MiB / 3.77GiB   9.14%     282MB / 4.86MB   0B / 0B     17
