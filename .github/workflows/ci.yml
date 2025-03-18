@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main  # هر وقت به main push می‌کنی، اجرا می‌شه
+      - main  
 
 jobs:
   build:
