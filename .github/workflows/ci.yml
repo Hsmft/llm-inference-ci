@@ -28,7 +28,7 @@ jobs:
           context: . 
           file: ./Dockerfile  
           push: true
-          tags: YOUR_USERNAME/llm-inference-image:latest  
+          tags: ${{ secrets.DOCKER_USERNAME }}/llm-inference-image:latest  
 
       - name: Run tests
         run: |
