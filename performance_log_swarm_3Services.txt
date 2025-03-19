@@ -1,4 +1,4 @@
 CONTAINER ID   NAME                                                CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O   PIDS
-ae744af2100a   llm-inference-service.3.ymr9kbse045mb91cxd6vb9qhr   0.01%     247.3MiB / 3.77GiB   6.41%     284MB / 6.47MB   0B / 0B     9
-f08ccabf00b5   llm-inference-service.2.9qsd4sr9vewkerloqzivzelnr   0.01%     237.1MiB / 3.77GiB   6.14%     284MB / 6.29MB   0B / 0B     9
-ce3e26874829   llm-inference-service.1.ys4e0dtent0peyslar92ddjos   0.01%     350.5MiB / 3.77GiB   9.08%     282MB / 4.86MB   0B / 0B     17
+ae744af2100a   llm-inference-service.3.ymr9kbseb9qhr   0.01%     247.3MiB / 3.77GiB   6.41%     284MB / 6.47MB   0B / 0B     9
+f08ccabf00b5   llm-inference-service.2.9qsd4oqzivzelnr   0.01%     237.1MiB / 3.77GiB   6.14%     284MB / 6.29MB   0B / 0B     9
+ce3e26874829   llm-inference-service.1.ys4e92ddjos   0.01%     350.5MiB / 3.77GiB   9.08%     282MB / 4.86MB   0B / 0B     17
