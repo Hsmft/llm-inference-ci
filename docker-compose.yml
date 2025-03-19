@@ -1,6 +1,6 @@
 services:
   llm-inference-service:
-    image: hsmft/llm-inference-image # Use your own image (that already pushed to docker hub)
+    image: ${{ secrets.DOCKER_USERNAME }}/llm-inference-image # Use your own image (that already pushed to docker hub)
     ports:
       - 8080:5000 # Host port 8080 maps to container port 5000
     environment:
